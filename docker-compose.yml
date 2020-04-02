@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  app:
+    build:
+      context: .
+    command: "npm run serve"
+    volumes:
+      - .:/app:cached
+      - node-modules-data:/app/node_modules:delegated
+    ports:
+      - '8080:8080'
+volumes:
+  node-modules-data:
