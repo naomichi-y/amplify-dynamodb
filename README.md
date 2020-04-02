@@ -9,8 +9,7 @@ $ docker-compose build
 $ docker-compose run --rm app amplify configure
 $ docker-compose up
 $ docker-compose run --rm app amplify init
-$ docker-compose run --rm app amplify status
-$ docker-compose run --rm app amplify add api
 ```
 
 Open `http://localhost:8080` in your browser.
+You can start initializing amplify with `docker-compose run --rm app amplify init` command.

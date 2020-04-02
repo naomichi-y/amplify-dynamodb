@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-    command: "npm run serve"
+    command: 'npm run serve'
     volumes:
       - .:/app:cached
       - node-modules-data:/app/node_modules:delegated
