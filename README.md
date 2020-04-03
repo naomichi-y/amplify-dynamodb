@@ -1,6 +1,6 @@
 # amplify-handson
 
-This is sample application to manipulate DynamoDB using Amplify + AppSync.
+This is sample application to manipulate DynamoDB using `Amplify + AppSync`.
 
 https://aws.amazon.com/jp/blogs/startup/event-report-amplify-handson/
 
