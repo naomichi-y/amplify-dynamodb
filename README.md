@@ -1,4 +1,4 @@
-# amplify-dynamod-sample
+# amplify-handson
 
 https://aws.amazon.com/jp/blogs/startup/event-report-amplify-handson/
 
@@ -7,9 +7,12 @@ https://aws.amazon.com/jp/blogs/startup/event-report-amplify-handson/
 ```
 $ docker-compose build
 $ docker-compose run --rm app amplify configure
-$ docker-compose up
 $ docker-compose run --rm app amplify init
 ```
 
+## Launching an application
+```
+$ docker-compose up
+```
+
 Open `http://localhost:8080` in your browser.
-You can start initializing amplify with `docker-compose run --rm app amplify init` command.

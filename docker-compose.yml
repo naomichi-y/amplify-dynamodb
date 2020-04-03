@@ -6,8 +6,10 @@ services:
     command: 'npm run serve'
     volumes:
       - .:/app:cached
-      - node-modules-data:/app/node_modules:delegated
+      - node-modules:/app/node_modules:delegated
+      - aws:/root/.aws
     ports:
       - '8080:8080'
 volumes:
-  node-modules-data:
+  node-modules:
+  aws:
